@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 50px;
     }
 
 *{
@@ -15,7 +15,9 @@ background: -webkit-linear-gradient(to top, #0575E6, #00F260);  /* Chrome 10-25,
 background: linear-gradient(to top, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 background-repeat: no-repeat;
 background-size: cover;
-height: 100vh;
+/* height: 100vh; */
+margin:0;
+padding: 0;
 }
 h1{
     color: rgb(81, 3, 93);
@@ -37,6 +39,7 @@ min-width: 30%;
 color: #13ffef;
 font-weight: bold;
 cursor: pointer;
+margin-top: 20px;
 }
 
 button:hover{
@@ -44,3 +47,16 @@ button:hover{
       transition: 0.2s;
       /* transition-timing-function: ease;       */
 }
+
+form {
+    padding: 60px 10px 10px;
+    background-color: lightblue;
+    min-width: 300px;
+    border-radius: 15px;
+}
+
+input#post_title, textarea#post_body {
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
