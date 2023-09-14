@@ -1,51 +1,57 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin-top: 50px;
-    }
-
-*{
-    font-family:  'Roboto Mono', monospace;;
 }
 
-body{
-background: #00F260;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-background-repeat: no-repeat;
-background-size: cover;
-/* height: 100vh; */
-margin:0;
-padding: 0;
+* {
+    font-family: 'Roboto Mono', monospace;
+    ;
 }
-h1{
+
+body {
+    background: #00F260;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #0575E6, #00F260);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #0575E6, #00F260);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
     color: rgb(81, 3, 93);
 }
 
-p{
+p {
     max-width: 300px;
     text-align: center;
 }
 
-button{
-background: #fc4a1a;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #f7b733, #fc4a1a);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #f7b733, #fc4a1a); 
-border: none;
-padding: 20px;
-border-radius: 10px;
-min-width: 30%;
-color: #13ffef;
-font-weight: bold;
-cursor: pointer;
-margin-top: 20px;
+button {
+    background: #fc4a1a;
+    background: -webkit-linear-gradient(to top, #f7b733, #fc4a1a);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #f7b733, #fc4a1a);
+    border: none;
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 30%;
+    color: #13ffef;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 20px;
 }
 
-button:hover{
-      transform: scale(110%); 
-      transition: 0.2s;
-      /* transition-timing-function: ease;       */
+button:hover {
+    transform: scale(110%);
+    transition: 0.2s;
+    /* transition-timing-function: ease;       */
 }
 
 form {
@@ -55,8 +61,8 @@ form {
     border-radius: 15px;
 }
 
-input#post_title, textarea#post_body {
+input#post_title,
+textarea#post_body {
     margin-bottom: 10px;
     cursor: pointer;
 }
-
